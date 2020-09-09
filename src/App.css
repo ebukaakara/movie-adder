@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Source Sans Pro',
+    sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.navBar {
+  background-color: #282c34;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.adder {
+  margin: 1.4rem;
+}
+
+.formy {
+  border: 2px solid #eee;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 0.3rem;
+}
+
+.btn {
+  border-radius: 10px;
+  background-color: orange;
+  border: none;
+  text-decoration: none;
+  color: white;
+  padding: 10px 10px;
+  margin: 10px 10px;
+  cursor: pointer;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.nav {
+  padding: 1.3rem;
+  background: rgb(25, 25, 46);
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  width: 100vw;
+  font-size: 1.5rem;
+}
